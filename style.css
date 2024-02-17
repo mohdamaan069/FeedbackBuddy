@@ -1,0 +1,69 @@
+body {
+  font-size: 20px;
+  border: solid 10px red;
+  margin: 10px;
+  padding: 20px;
+  color: navy;
+  background-image: url("sl_031022_49100_01.jpg");
+  background-repeat: no-repeat;
+  background-position: fixed;
+  background-size: cover;
+  border-radius: 5px;
+  font-weight: 300;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+h1 {
+  font-size: 4vw; /* make our h1 tag larger */
+  font-family: sans-serif; /* choosing our font */
+  background: linear-gradient(to right, rgba(255, 215, 255, 0) 0%, rgba(60, 170, 194) 20%, rgba(255, 255, 255, 0) 61%), linear-gradient(rgb(177, 23, 131, 0.5) 52%, rgb(224, 246, 255) 60%, rgb(78, 99, 132) 61%); /* you can change the colors based on your preference */
+  background-clip: text; /*it defines how far the background should extend within an element, here we set it to text */
+  -webkit-background-clip: text; /*for browsers compatibility */
+  -webkit-text-fill-color: transparent; /* specifies the fill color of text characters. We use transparent to use the background as our text fill  */
+  animation: wave 2000ms ease alternate infinite;
+  transition: all 0.4s ease;
+}
+@keyframes wave {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 50vw 10px;
+  }
+}
+
+input,
+select,
+textarea {
+  padding: 3px;
+  margin: 3px;
+  border-radius: 5px;
+  border-color: grey;
+  border-style: double;
+}
+
+.submit {
+  font-size: 18px;
+  background-image: url("pngimg.com - buttons_PNG133.png");
+  border: none;
+  border-radius: 15px;
+  padding: 5px 8px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Add a text shadow for better visibility */
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Add a box shadow for depth */
+  transition: transform 0.3s ease-in-out;
+  background-color: rgb(226, 174, 43);
+}
+
+.submit:hover {
+  transform: scale(1.1);
+}
+.intro {
+  color: rgb(23, 28, 178);
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+.sbtmsg {
+  color: green;
+}
