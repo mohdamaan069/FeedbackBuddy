@@ -44,6 +44,10 @@ This project is licensed under the MIT License.
 
 ## Acknowledgements
 - We would like to thank all contributors to this project.
+- Mohd Amaan
+- Ravi Jat
+- Nishant Rathore
+- Bhaumik Chauhan
 - Special thanks to the organizers and participants of the HackTheChain 2.0 hackathon for their support and feedback.
   
 Thank you for using Feedback Buddy! If you have any questions or feedback, feel free to contact us.
