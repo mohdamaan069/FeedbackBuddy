@@ -40,7 +40,7 @@ We welcome contributions from the community to improve Feedback Buddy. If you'd 
 6. Create a new Pull Request.
 
 ## License
-This project is licensed under the [MIT License].
+This project is licensed under the MIT License.
 
 ## Acknowledgements
 - We would like to thank all contributors to this project.
